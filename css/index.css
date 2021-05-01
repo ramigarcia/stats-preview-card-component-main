@@ -7,11 +7,13 @@
   --slightlyTransparentWhite: rgba(255, 255, 255, 0.6); /* stat headings */
   --inter: "Inter", sans-serif; /* 400 - 700 */
   --lexendDeca: "Lexend Deca", sans-serif; /* 400 */
-  --inter400: 400 / normal var(--inter); /* 400 */
+  --inter400: 400 15px / normal var(--inter); /* 400 */
   --inter700: 700 / normal var(--inter); /* 700 */
   --lexendDeca400: 400 / normal var(--lexendDeca); /* 400 */
 }
 
 body {
-  font-size: 15px;
+  color: white;
+  font: var(--inter400);
+  background-color: var(--veryDarkBlue);
 }
