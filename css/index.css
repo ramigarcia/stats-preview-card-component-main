@@ -1,3 +1,8 @@
+@import "./wrapper.css";
+@import "./card.css";
+@import "./cardImage.css";
+@import "./descriptionCard.css";
+
 :root {
   --veryDarkBlue: rgb(9, 11, 26); /* main background */
   --darkDesaturatedBlue: rgb(27, 25, 56); /* card background */
@@ -12,8 +17,16 @@
   --lexendDeca400: 400 / normal var(--lexendDeca); /* 400 */
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   color: white;
   font: var(--inter400);
   background-color: var(--veryDarkBlue);
+  width: 100%;
+  height: 100vh;
 }
