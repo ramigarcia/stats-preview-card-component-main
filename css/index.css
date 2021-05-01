@@ -1,0 +1,17 @@
+:root {
+  --veryDarkBlue: rgb(9, 11, 26); /* main background */
+  --darkDesaturatedBlue: rgb(27, 25, 56); /* card background */
+  --softViolet: rgb(170, 92, 219); /* accent */
+  --white: rgb(255, 255, 255); /* main heading, stats */
+  --slightlyTransparentWhite: rgba(255, 255, 255, 0.75); /* main paragraph */
+  --slightlyTransparentWhite: rgba(255, 255, 255, 0.6); /* stat headings */
+  --inter: "Inter", sans-serif; /* 400 - 700 */
+  --lexendDeca: "Lexend Deca", sans-serif; /* 400 */
+  --inter400: 400 / normal var(--inter); /* 400 */
+  --inter700: 700 / normal var(--inter); /* 700 */
+  --lexendDeca400: 400 / normal var(--lexendDeca); /* 400 */
+}
+
+body {
+  font-size: 15px;
+}
