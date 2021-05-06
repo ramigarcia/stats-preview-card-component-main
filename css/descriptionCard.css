@@ -1,0 +1,36 @@
+.description {
+  margin: 20px 15px;
+}
+
+.description .title {
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.description .title span {
+  color: var(--softViolet);
+}
+
+.description .paragraph {
+  line-height: 27px;
+  font-size: 18px;
+  color: var(--slightlyTransparentWhite);
+}
+
+@media screen and (min-width: 800px) {
+  .description {
+    padding: 30px 15px;
+    order: 1;
+    max-width: 400px;
+  }
+
+  .description .title {
+    text-align: left;
+  }
+
+  .description .paragraph {
+    line-height: 25px;
+    font-size: 16px;
+  }
+}

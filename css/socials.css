@@ -1,0 +1,25 @@
+.socials {
+  margin: 25px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials .social-value {
+  margin: 20px;
+}
+
+.socials .social-value span {
+  color: var(--slightlyTransparentGray);
+  font: var(--lexendDeca400);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 800px) {
+  .socials {
+    flex-direction: row;
+  }
+}

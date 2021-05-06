@@ -1,0 +1,22 @@
+.card .figure {
+  margin: 0;
+  object-fit: cover;
+}
+
+.card .figure img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 800px) {
+  .card .figure {
+    order: 2;
+    padding: 0;
+    margin: 0;
+  }
+  .card .figure img {
+    min-width: 350px;
+    object-fit: cover;
+    min-height: 100%;
+  }
+}
